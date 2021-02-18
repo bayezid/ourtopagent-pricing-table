@@ -1,3 +1,17 @@
+body {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+}
+.pcontainer {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.divTableRow.top-header .divTableCell:first-child {
+	border: none;
+}
+.divTableRow.top-header img {
+	max-width: 100%;
+}
 .divTable{
 	display: table;
 	width: 100%;
@@ -10,9 +24,16 @@
 	display: table-header-group;
 }
 .divTableCell, .divTableHead {
-	border: 1px solid #999999;
+	border: 1px solid #eee;
 	display: table-cell;
-	padding: 3px 10px;
+	padding: 10px;
+}
+.divTableRow:nth-child(2n) .divTableCell {
+	background: #e8f4f7;
+}
+.divTableBody .divTableCell:last-child {
+	background: #34495e;
+	color: #fff;
 }
 .divTableHeading {
 	background-color: #EEE;
@@ -30,3 +51,27 @@
 .hidden-text {
   overflow: hidden;
 }
+#screenshot{
+position:absolute;
+border:1px solid #ccc;
+background:#333;
+padding:5px;
+display:none;
+color:#fff;
+max-width: 220px;
+}
+#screenshot img {
+	max-width: 100%;
+}
+.show-m {
+	display: none;
+}
+/*
+@media (max-width: 991px) {
+	.show-m {
+		display: block;
+	}
+	.divTableRow .divTableCell:first-child {
+		display: none;
+	}
+}*/
