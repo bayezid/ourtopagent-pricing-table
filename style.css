@@ -9,9 +9,7 @@ body {
 .divTableRow.top-header .divTableCell:first-child {
 	border: none;
 }
-.divTableRow.top-header img {
-	max-width: 100%;
-}
+
 .divTable{
 	display: table;
 	width: 100%;
@@ -31,10 +29,7 @@ body {
 .divTableRow:nth-child(2n) .divTableCell {
 	background: #e8f4f7;
 }
-.divTableBody .divTableCell:last-child {
-	background: #34495e;
-	color: #fff;
-}
+
 .divTableHeading {
 	background-color: #EEE;
 	display: table-header-group;
@@ -54,17 +49,28 @@ body {
 #screenshot{
 position:absolute;
 border:1px solid #ccc;
-background:#333;
+background:rgb(212, 196, 47);
 padding:5px;
 display:none;
 color:#fff;
 max-width: 220px;
+}
+.screenshot{
+    text-decoration: underline;
 }
 #screenshot img {
 	max-width: 100%;
 }
 .show-m {
 	display: none;
+}
+.bold-title{
+    font-weight: 700;
+    font-size: 18px;
+}
+.bold-title-2{
+    font-size: 20px;
+    font-weight: 700;
 }
 /*
 @media (max-width: 991px) {
